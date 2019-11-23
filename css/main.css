@@ -44,7 +44,7 @@ img {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 0 auto;
   max-width: 45em;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,7 @@ img {
 
   .wrapper {
     flex-wrap: nowrap;
-    margin: 0;
+    margin: 0 auto;
   }
 
   html {
@@ -123,11 +123,15 @@ img {
 
   .section-icon img,
   .section-letter img {
-    width: 35%;
+    /* width: 35%; */
   }
 
   .section-body {
     top: 100px;
+  }
+
+  section {
+    padding: 1rem;
   }
 
 }
@@ -140,7 +144,7 @@ img {
 
   .section-icon img,
   .section-letter img {
-    width: 25%;
+    /* width: 25%; */
   }
 
 }
